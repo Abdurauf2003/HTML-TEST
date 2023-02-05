@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow';
+}
+
+body {
+    background: url('test.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 25px;
+}
+
+.container .header {
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid mediumorchid;
+}
+
+.container .content {
+    padding-left: 25px;
+    border-bottom: mediumorchid solid 5px;
+}
+
+.container .result {
+    border-bottom: solid 5px mediumorchid;
+}
+
+.container .footer {
+    text-align: center;
+    font-weight: 1000;
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: mediumorchid 5px solid;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.25);
+    outline: none;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding: 15px;
+    border-radius: 25px;
+    width: 300px;
+	transition: 2s;
+}
+button:hover {
+    background: rgba(0, 0, 0, 0.75);
+    border: white 0.5px solid;
+	transition: 2s;
+}
+
+
+.result {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.divider {
+    background: mediumorchid;
+    width: 100%;
+    height: 100%;
+}
+.div1, .div2 {
+    padding: 25px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 45.25% 0.5% 45.25%;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        color: white;
+    }
+}
