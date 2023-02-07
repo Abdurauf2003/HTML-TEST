@@ -87,4 +87,7 @@ button:hover {
     .content {
         color: white;
     }
+    body {
+        background-repeat: repeat;
+    }
 }
