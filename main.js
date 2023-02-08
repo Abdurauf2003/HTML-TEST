@@ -11,8 +11,8 @@ function displayTime() {
     // Update the time on the web page
     document.getElementById("time").innerHTML = time;
 }
-  // Call the displayTime function every 1000 milliseconds (1 second)
-  setInterval(displayTime, 1000);  
+// Call the displayTime function every 1000 milliseconds (1 second)
+setInterval(displayTime, 1000);
 
 function tekshir() {
     var a = document.getElementById("l0");

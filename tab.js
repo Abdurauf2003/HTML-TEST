@@ -4,10 +4,27 @@ window.onload = function () {
 var containercolor = "#6699cc";
 
 function init() {
-    var sana = 0;
     var border = "#cfcfcf 1px solid";
     var conbkcolor = "#eee9e9";
     var tabbk = "#cfcfcf";
+    var nowDate = new Date();
+    var ddd = nowDate.getDate();
+    var mmm = nowDate.getMonth();
+    var dm = ddd + "." + mmm;
+    var sana = 0;
+    if (dm == "5.1") {
+        sana = 0;
+    } else
+    if (dm == "12.1") {
+        sana = 1;
+    } else
+    if (dm == "19.1") {
+        sana = 2;
+    } else
+    if (dm == "26.1") {
+        sana = 3;
+    } else sana = 0;
+
 
     t4 = new Bindtabs("tabco4", sana, "click", "t", border, tabbk, conbkcolor, "400px");
     t4.c();

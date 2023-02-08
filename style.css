@@ -4,25 +4,29 @@
     box-sizing: border-box;
     font-family: 'Arial Narrow';
 }
+
 /*TAB*/
 .content {
     clear: both;
     background-color: #eee9e9;
     width: 100%;
     height: max-content;
- }
- .ulnofloat {
+}
+
+.ulnofloat {
     list-style-type: none;
     padding-left: px;
     margin: 0px;
- }
- .ullifloat {
-    float : left;
+}
+
+.ullifloat {
+    float: left;
     padding-left: 0px;
     background-color: #cfcfcf;
     margin-right: 0px;
- }
- .ula {
+}
+
+.ula {
     position: relative;
     text-decoration: none;
     display: block;
@@ -30,22 +34,25 @@
     cursor: pointer;
     font: bold 11px arial, sans-serif;
     color: #c00000;
- }
- #tabco4{
+}
+
+#tabco4 {
     position: relative;
-    left : 0;
+    left: 0;
     width: 100%;
     background-color: #6699cc;
- }
- #tabco4 ul a:hover {
+}
+
+#tabco4 ul a:hover {
     color: #0062e6;
- }
+}
 
 .timess {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /*TAB*/
 
 body {
