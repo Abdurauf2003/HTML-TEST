@@ -4,12 +4,49 @@
     box-sizing: border-box;
     font-family: 'Arial Narrow';
 }
+/*TAB*/
+.content {
+    clear: both;
+    background-color: #eee9e9;
+    width: 100%;
+    height: max-content;
+ }
+ .ulnofloat {
+    list-style-type: none;
+    padding-left: px;
+    margin: 0px;
+ }
+ .ullifloat {
+    float : left;
+    padding-left: 0px;
+    background-color: #cfcfcf;
+    margin-right: 0px;
+ }
+ .ula {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+    font: bold 11px arial, sans-serif;
+    color: #c00000;
+ }
+ #tabco4{
+    position: relative;
+    left : 0;
+    width: 100%;
+    background-color: #6699cc;
+ }
+ #tabco4 ul a:hover {
+    color: #0062e6;
+ }
 
 .timess {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*TAB*/
 
 body {
     background: url('test.jpg');
@@ -30,7 +67,7 @@ body {
     border-bottom: 5px solid mediumorchid;
 }
 
-.container .content {
+.container .content1 {
     padding-left: 25px;
     border-bottom: mediumorchid solid 5px;
 }
@@ -88,17 +125,13 @@ button:hover {
     padding: 25px;
 }
 
-.content {
+.content1 {
     display: grid;
     grid-template-columns: 45.25% 0.5% 45.25%;
     color: black;
 }
 
 @media only screen and (max-width: 800px) {
-    .content {
-        color: white;
-    }
-
     body {
         background-repeat: repeat;
     }
